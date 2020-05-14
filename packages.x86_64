@@ -1,4 +1,4 @@
-# Base packages
+# Base packages (Do not touch this part)
 arch-install-scripts
 b43-fwcutter
 broadcom-wl
@@ -32,8 +32,8 @@ irssi
 iwd
 jfsutils
 lftp
-linux-atm
 linux-firmware
+linux-headers
 lsscsi
 lvm2
 man-db
@@ -105,4 +105,8 @@ theslate
 thebeat
 firefox
 chromium
+kate
+gimp
+inkscape
+vlc
 xterm

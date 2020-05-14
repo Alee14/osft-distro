@@ -2,7 +2,7 @@
 
 set -e -u
 
-iso_name=archlinux
+iso_name=osft-distro
 iso_label="OSFT_$(date +%Y%m)"
 iso_publisher="OSFT Distro <http://www.archlinux.org>"
 iso_application="OSFT Distro Live/Rescue CD"

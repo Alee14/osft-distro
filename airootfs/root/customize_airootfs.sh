@@ -7,9 +7,11 @@ locale-gen
 
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
-usermod -s /usr/bin/zsh root
+usermod -s /usr/bin/bash root
 cp -aT /etc/skel/ /root/
 chmod 700 /root
+
+! id osft-distro && useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /usr/bin/bash osft-distro
 
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
