@@ -85,6 +85,7 @@ base-devel
 xdg-user-dirs
 plasma-desktop
 virtualbox-guest-utils
+virtualbox-guest-dkms
 xorg-server
 xorg-drivers
 xorg-xinit
@@ -95,6 +96,7 @@ xf86-video-nouveau
 mesa
 lib32-mesa
 nvidia
+plymouth
 
 # Custom Fonts
 ttf-dejavu
